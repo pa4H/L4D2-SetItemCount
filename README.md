@@ -1,20 +1,20 @@
 # [L4D2] SetItemCount
 
-A VERY simple plugin showing the connection and disconnection message.  
-Country, city, disconnect reason and also shows the __hours__ spent in L4D2.  
-The translation file is available (pa4HConAnnounce.phrases.txt)
-## Phrases preview:
-```
- Player click join to server: Player pa4H is connecting...
- Player fully loaded: Player pa4H (RUS, BRN) connected! 4324h
- Player disconnected: Player pa4H disconnected (Disconnect by user)
- ```
- ## How to install:
- To be able to display hours, you need a  [Steam API ID](https://steamcommunity.com/dev/apikey).  
- Put to server.cfg: `sm_cvar SteamAPI_Key "yourid"`  
- [REST in Pawn](https://forums.alliedmods.net/showthread.php?t=298024) extension for work with SteamAPI.  
- [Colors.inc](https://forums.alliedmods.net/showthread.php?t=96831) for plugin compilation.  
+__!itemcount__ - Displays the number of items on the map in chat. Only for admins.  
+The plugin does not affect first aid kits in the initial saferoom.  
+
+There are 4 + 2 __first aid kits__ on the maps.  
+On the last map there are 4 + 4 __first aid kits__.
+4 __pain pill__  
+2 __adrenaline__  
+1 __defibrillator__  
+2 __vomitjar__  
+2 __molotov__  
+4 __pipe bomb__  
+1 __incendiary__  
+1 __explosive__  
  
  ##
 Compiled on SourceMod 1.11  
+Big thanks to AiKi and Crimson_Fox  
 [Developer](https://vk.com/pa4h1337)
