@@ -1,6 +1,9 @@
 # [L4D2] SetItemCount
 
+**For work you need [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)**  
+
 __!itemcount__ - Displays the number of items on the map in chat. Only for admins.  
+
 The plugin does not affect first aid kits in the initial saferoom.  
 
 There are 4 + 2 __first aid kits__ on the maps.  
