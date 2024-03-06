@@ -22,7 +22,7 @@ public OnPluginStart()
 	//RegConsoleCmd("sm_test", debb, "");
 	RegAdminCmd("sm_itemcount", printItemCount, ADMFLAG_BAN, "");
 	
-	HookEvent("round_start", clearEvent);
+	HookEvent("versus_round_start", clearEvent);
 	
 	//BuildPath(Path_SM, DropLP, sizeof(DropLP), "logs/SetItemCount.log"); // debug
 }
@@ -31,7 +31,7 @@ stock Action debb(int client, int args) // DEBUG
 	return Plugin_Handled;
 }
 
-public void clearEvent(Event event, char[] name, bool dobr)
+public void clearEvent(Event hEvent, const char[] sEvName, bool bDontBroadcast) // Срабатывает после выхода из saferoom
 {
 	if (!isVersus()) { return; }
 	findSurvivorStart(); // Получаем координаты 1 убеги
